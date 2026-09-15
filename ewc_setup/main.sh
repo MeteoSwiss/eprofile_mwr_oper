@@ -22,5 +22,5 @@ $path_scripts/install_s3.sh
 #$path_scripts/s3_create_buckets.sh eprofile-mwr-l1 eprofile-mwr-l2 eprofile-alc-l2  # comment this out if buckets alredy exist
 #$path_scripts/s3_automount_buckets.sh eprofile-mwr-l1 eprofile-mwr-l2 eprofile-alc-l2 eprofile-ecmwf-data
 $path_scripts/import_eprofile_config.sh
-$path_scripts/write_cron.sh
+#$path_scripts/write_cron.sh
 echo "Notification not yet included in this deployement script, please don't forget to do this !"
